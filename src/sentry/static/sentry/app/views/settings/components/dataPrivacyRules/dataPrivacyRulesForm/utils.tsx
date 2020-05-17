@@ -1,6 +1,6 @@
 import {t} from 'app/locale';
 
-import {RuleType, MethodType} from './types';
+import {RuleType, MethodType} from '../types';
 
 function getRuleTypeLabel(labelType: RuleType): string {
   switch (labelType) {
